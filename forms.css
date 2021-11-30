@@ -1,0 +1,35 @@
+
+form{ color: #d8d6d2;
+   border: 20px solid rosybrown;
+  
+   text-align: center;
+   font-size: 25px;
+   margin: 30px;
+
+}
+
+@keyframes ani{
+   0%{background-position: 0 100%;}
+   50%{background-position: 100% 0;}
+   100%{background-position: 0 100%;}
+}
+form label{position: initial;
+   font-size: 30px;
+   margin: 10px;
+   text-align: center;
+ color: transparent;
+ background-image: linear-gradient(to left,#40267a,#be5111,#b6c49b,#e4620b);
+ -webkit-background-clip: text;
+ animation: ani 4s linear infinite;
+ background-size: 500%;
+ 
+}
+button{position: relative;
+   color: #f39c12;
+background-color: #070608;
+font-size: 20px;}
+
+
+   
+   
+
